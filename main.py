@@ -1,6 +1,6 @@
 # Rui Santos & Sara Santos - Random Nerd Tutorials
 # Complete project details at https://RandomNerdTutorials.com/raspberry-pi-pico-w-micropython-ebook/
-# MODIFIED TO SKIP THE SENSOR
+################################ MODIFIED TO SKIP THE SENSOR ################
 
 from machine import Pin, I2C
 from time import sleep
@@ -13,7 +13,7 @@ import config
 MQTT_TOPIC_TEMPERATURE = 'pico/temperature'
 MQTT_TOPIC_PRESSURE = 'pico/pressure'
 MQTT_TOPIC_HUMIDITY = 'pico/humidity'
-
+################################## You may need to edit here.#################
 # MQTT Parameters
 MQTT_SERVER = config.mqtt_server
 MQTT_PORT = 0
