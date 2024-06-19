@@ -1,0 +1,5 @@
+wifi_ssid = '*********'
+wifi_password = '**********'
+mqtt_server = b'8c584a2f4abf428da318f45fe0fdba81.s1.eu.hivemq.cloud'
+mqtt_username = b'SARARANDOM'
+mqtt_password = b'CODEtest1'
